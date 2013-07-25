@@ -1,0 +1,25 @@
+{
+  "name": "blah",
+  "version": "0.0.1",
+  "description": "A chat app for DevCon5, demonstrating Persona sign-in",
+
+  "scripts": {
+    "start": "node ./start.js"
+  },
+
+  "author": "Jed Parsons <jed@jedparsons.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+
+  "dependencies": {
+    "awsbox": "0.5.4",
+    "connect": "2.8.4",
+    "cookie": "0.1.0",
+    "express": "3.3.4",
+    "helmet": "0.1.0",
+    "jade": "0.33.0",
+    "querystring": "0.2.0",
+    "request": "2.25.0",
+    "socket.io": "0.9.16"
+  }
+}

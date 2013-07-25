@@ -1,0 +1,15 @@
+
+#messages {
+  list-style: none;
+}
+
+.message {
+  width: 60ex;
+}
+
+.from {
+  color: #aaa;
+}
+.from:before { content: '<'; }
+.from:after  { content: '> '; }
+
