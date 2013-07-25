@@ -1,12 +1,15 @@
 extends layout
 
 block content
+  #signin
+    p Sign in with your email
+
   #chat
-    #stream
+    div
       ul#messages
 
     #send
-      form
-        input(type='text', name='input', id='input')
+      input(type='text', id='input')
+      button#submit Send
 
-    
+
