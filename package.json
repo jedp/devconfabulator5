@@ -12,7 +12,7 @@
   "readmeFilename": "README.md",
 
   "dependencies": {
-    "awsbox": "0.5.4",
+    "awsbox": "0.4.5",
     "connect": "2.8.4",
     "cookie": "0.1.0",
     "express": "3.3.4",
