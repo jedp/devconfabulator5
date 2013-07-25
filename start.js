@@ -1,8 +1,7 @@
 const
-app = require('./lib/server'),
-http = require('http');
+app = require('./lib/server');
 
-// getting express and socket.io to play together
+// getting express and socket.io to play together.
 var httpServer = app.server.listen(app.server.get('port'));
 require('./lib/sockets')(httpServer, app.store);
 
