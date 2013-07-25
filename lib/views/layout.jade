@@ -2,6 +2,7 @@ doctype 5
 html
   head
     link(href='/css/style.css', type='text/css', rel='stylesheet')
+    script(src='https://login.persona.org/include.js')
     script(src='/socket.io/socket.io.js')
     script(src='/js/jquery-1.10.2.min.js')
     script(src='/js/client.js')
@@ -9,6 +10,9 @@ html
   body
     #header 
       h2 DevConFabulator5
+      div#auth
+        a(href='#', id='signin') Sign in
+        a(href='#', id='signout') Sign out
 
     #content
       block content
