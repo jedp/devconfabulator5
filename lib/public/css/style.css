@@ -74,7 +74,7 @@ body {
   background-color: #ddd;
   width: 100%;
   height: 1.5em;
-  z-index: 1;
+  z-index: 10;
 }
 
 #header h2 {
@@ -94,6 +94,7 @@ body {
 }
 
 #send {
+  z-index: 10;
   width: 90%;
 }
 #input {
@@ -114,6 +115,7 @@ body {
   bottom: 2em;
   padding-left: 1em;
   line-height: 1.33em;
+  z-index: 1;
 }
 
 
@@ -125,6 +127,7 @@ body {
   padding: .5em;
   text-align: right;
   width: 100%;
+  z-index: 10;
 }
 
 #messages {
